@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ctw_4_24_16</string>
+	<string name="score_str">Score: </string>
+	<string name="lives_str">Lives: </string>
+	<string name="time_left_str">Time Left: </string>
+	<string name="words_left_str">Words Left: </string>
+	<string name="facebook_app_id">979629652073068</string>
+</resources>

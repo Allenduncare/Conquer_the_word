@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include  layout="@layout/game_header" />
+
+    <LinearLayout
+        android:id="@+id/wordBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight=".2">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight=".8"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/c1_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f16d6d"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c1title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Topic 1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c2_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#91e78d"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c2title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Topic 2"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c3_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6dd0ec"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c3title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Topic 3"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/to_main_b"
+        android:text="Main Menu"/>
+
+</LinearLayout>
